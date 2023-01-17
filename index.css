@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #09090A;
+    color: white;
+
+    display: grid;
+
+    place-items: center;
+
+    /*100vh é 100% da viewport [area visivel da tela]*/
+    height: 100vh;
+}
+
