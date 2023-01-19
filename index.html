@@ -14,39 +14,26 @@
         <button>
             <img src="assets/plus.svg" alt="ícone sinal de mais roxo ">
     
-            Registrar o meu dia
+            <div>Registrar o meu dia</div>
         </button>
     </header>
 
-    <form>
+    <form id="form-habits">
         <div class="habits">
-            <div class="habit">🏀</div>
-            <div class="habit">🚰</div>
-            <div class="habit">🍎</div>
-            <div class="habit">💻</div>
+            <div class="habit" data-name="baska">🏀</div>
+            <div class="habit" data-name="agua">🚰</div>
+            <div class="habit" data-name="comer">🍎</div>
+            <div class="habit" data-name="codar">💻</div>
+            <div class="habit" data-name="jogar">🎮</div>
+            <div class="habit" data-name="assistir">📺</div>
+            <div class="habit" data-name="ler">📖</div>
+            <div class="habit" data-name="namorar">💝</div>
         </div>
 
-        <div class="days">
-            <div class="day">
-                <div>segunda</div>
-                <input type="checkbox" name="baska">
-                <input type="checkbox" name="agua">
-                <input type="checkbox" name="comer">
-                <input type="checkbox" name="estudar">
-            </div>
-        </div>
-
-        <div class="days">
-            <div class="day">
-                <div>terça</div>
-                <input type="checkbox" name="baska">
-                <input type="checkbox" name="agua">
-                <input type="checkbox" name="comer">
-                <input type="checkbox" name="estudar">
-            </div>
-        </div>
+        <div class="days"></div>
     </form>
 
-
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
