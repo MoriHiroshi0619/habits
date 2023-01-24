@@ -20,7 +20,7 @@ form.addEventListener('change', save);
 //adicona o data(atual) no nlwSetup -> que é um objeto
 function add(){
     const today = new Date().toLocaleDateString('pt-br').slice(0, -5);
-    //const today = '18/01'
+    //const today = '01/23'
                     //func verifica se a data já n existe
     const dayExists = nlwSetup.dayExists(today);
 
