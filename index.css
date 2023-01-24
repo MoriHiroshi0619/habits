@@ -14,6 +14,10 @@ body {
     width: 100vw;
 }
 
+body *{
+    /*border: 1px solid red;*/
+}
+
 
 header{
     display: flex;
@@ -43,7 +47,8 @@ button {
 
 #form-habits {
     display: flex;
-    padding: 182px 48px 48px;
+    position: fixed;
+    padding: 182px 48px 48px 0px;
     width: fit-content;
 }
 
@@ -56,16 +61,22 @@ button {
     justify-content: center;
 }
 
+
 .habits{
-    margin-top: 60px;
+    background-color: #09090A;
+    padding-left: 40px;
     display: flex;
+    position: fixed;
+    top: 235px;
     flex-direction: column;
     gap: 24px;
+    height: fit-content;
+    
 }
 
 .days{
     display: flex;
-    margin-left: 32px;
+    margin-left: 132px;
     gap: 48px;
 }
 
