@@ -44,10 +44,11 @@ button {
     display: flex;
     padding: 182px 48px 48px;
     width: fit-content;
+    overflow-x: auto;
 }
 
 .habit {
-    width: 64px;
+    min-width: 64px;
     height: 64px;
     font-size: 32px;
     display: flex;
@@ -56,6 +57,7 @@ button {
 }
 
 .habits{
+    width: 100%;
     margin-top: 60px;
     display: flex;
     flex-direction: column;
