@@ -60,7 +60,6 @@ window.onload = function(){
     var maxScroll = days.scrollWidth;
     days.scrollLeft = maxScroll;
 }
-
 /* formato
 const data = {
     baska: [],
