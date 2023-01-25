@@ -65,8 +65,9 @@ button {
 
 .days{
     display: flex;
-    margin-left: 32px;
+    margin-left: 16px;
     gap: 48px;
+    overflow-x: auto;
 }
 
 .day{
