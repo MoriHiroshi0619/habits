@@ -51,6 +51,15 @@ const data = JSON.parse(localStorage.getItem('habits')) || {};
 nlwSetup.setData(data);
 nlwSetup.load();
 
+const days = document.querySelector('.days');
+
+window.onload = function(){
+    /*
+    aqui farei uma incrivel gambiarra de um novato em desenvolvimento WEB ;)
+    */
+    var maxScroll = days.scrollWidth;
+    days.scrollLeft = -maxScroll;
+}
 
 /* formato
 const data = {

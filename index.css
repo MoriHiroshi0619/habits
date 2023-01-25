@@ -68,7 +68,6 @@ button {
     margin-left: 16px;
     gap: 48px;
     overflow-x: auto;
-    scroll-behavior: smooth;
     direction: rtl;
 }
 
