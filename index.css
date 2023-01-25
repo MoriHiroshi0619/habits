@@ -69,6 +69,7 @@ button {
     gap: 48px;
     overflow-x: auto;
     direction: rtl;
+    flex-direction: row-reverse;
 }
 
 .day{
