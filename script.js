@@ -58,7 +58,7 @@ window.onload = function(){
     aqui farei uma incrivel gambiarra de um novato em desenvolvimento WEB ;)
     */
     var maxScroll = days.scrollWidth;
-    days.scrollLeft = -maxScroll;
+    days.scrollLeft = maxScroll;
 }
 
 /* formato
@@ -67,10 +67,7 @@ const data = {
     agua:   [],
     comer:  [],
     codar: [],  
-    jogar: [],
-    assistir: [],
-    ler: [],
-    namorar: []
+    jogar: []; etc
 }
 
 */
