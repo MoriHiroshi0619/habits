@@ -29,7 +29,7 @@ function add(){
         return;
     }
 
-    //alert('Dia adicionado com sucesso ✅')
+    alert('Dia adicionado com sucesso ✅')
     //salva no objeto a data atual
     nlwSetup.addDay(today);
 }
