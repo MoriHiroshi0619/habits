@@ -68,8 +68,7 @@ button {
     margin-left: 16px;
     gap: 48px;
     overflow-x: auto;
-    direction: ltr;
-    flex-direction: row-reverse;
+    scroll-behavior: smooth;
 }
 
 .day{
