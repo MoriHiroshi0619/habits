@@ -10,6 +10,7 @@ const nlwSetup = new NLWSetup(form);
 //registrar em memoria
 const button = document.querySelector('header button');
 
+const days = document.querySelector('.days');
 
         /*adiconar ouvidor de eventos = sempre que um evento x aconotecer, execute uma função
         sintaxe: addEventListener('evento', função) */
@@ -32,6 +33,10 @@ function add(){
     alert('Dia adicionado com sucesso ✅')
     //salva no objeto a data atual
     nlwSetup.addDay(today);
+
+    days.style.cssText += 'scroll-behavior: smooth;'; 
+    var maxScroll = days.scrollWidth;
+    days.scrollLeft = maxScroll;
 }
 
 function save(){
@@ -51,7 +56,6 @@ const data = JSON.parse(localStorage.getItem('habits')) || {};
 nlwSetup.setData(data);
 nlwSetup.load();
 
-const days = document.querySelector('.days');
 
 window.onload = function(){
     /*

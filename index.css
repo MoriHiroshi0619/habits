@@ -67,6 +67,7 @@ button {
     display: flex;
     gap: 48px;
     overflow-x: auto;
+
 }
 
 .day{
